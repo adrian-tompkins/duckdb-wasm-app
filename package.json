@@ -1,0 +1,32 @@
+{
+  "name": "wasm-duckdb-app",
+  "version": "1.0.0",
+  "description": "A web application using DuckDB WebAssembly",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "serve dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@duckdb/duckdb-wasm": "^1.29.0",
+    "compression": "^1.7.4",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.3",
+    "serve": "^14.2.1"
+  }
+}
